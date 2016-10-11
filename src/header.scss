@@ -1,0 +1,72 @@
+.header{
+  margin: 0 auto;
+  width: 960px;
+  height: 100px;
+  position: relative;
+
+
+}
+.logo{
+  position: absolute;
+  bottom: -40px;
+  width: 482px;
+  height: 89px;
+  background: url('../img/logo.png') no-repeat;
+  margin-left: -241px;
+  left: 50%;
+}
+.ico{
+  position: absolute;
+  left: 25px;
+  top: 14px;
+  &__item{
+    list-style: none;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: red;
+    &--vk{
+      background-color: #507cbe;
+    }
+    &--fb{
+      background-color: #3b5998;
+    }
+    &--twitter{
+      background-color: #63cdf1;
+    }
+    &--googleplus{
+      background-color: #ea4235;
+    }
+    &--instagram{
+      background-color: #7c4d3b;
+    }
+    &--tumblr{
+      background-color: #395976;
+    }
+  }
+  &__link{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    line-height: 24px;
+    font-size: 15px;
+    color: #fff;
+  }
+}
+.phone{
+  position: absolute;
+  bottom: 10px;
+  left: 58px;
+  padding-left: 28px;
+  background: url('../img/sprite.png') no-repeat;
+  background-position: -5px -107px;
+  &__number{
+    font-size: 13px;
+    font-family: "Verdana";
+    color: rgb(51, 51, 51);
+    line-height: 1.2;
+}
+
+
+}

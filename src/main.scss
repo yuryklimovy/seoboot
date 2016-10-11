@@ -1,0 +1,17 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+@import "sprite.scss";
+
+.wrapper{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background: url('../img/header-bg.png') no-repeat;
+  background-position: top center;
+
+}
+
+@import "header.scss";
+@import "slider.scss";
